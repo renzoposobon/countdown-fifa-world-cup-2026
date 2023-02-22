@@ -51,25 +51,25 @@ const Counter = () => {
   return (
     <div className='counter'>
       <div className="grid grid-flow-col gap-5 text-center auto-cols-max justify-center">
-        <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+        <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content sombra">
           <span className="countdown font-mono text-5xl">
             {days}
           </span>
           Días
         </div> 
-        <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+        <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content sombra">
           <span className="countdown font-mono text-5xl">
             {hours}
           </span>
           Horas
         </div> 
-        <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+        <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content sombra">
           <span className="countdown font-mono text-5xl">
             {minutes}
           </span>
           Min
         </div> 
-        <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+        <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content sombra">
           <span className="countdown font-mono text-5xl">
             {seconds}
           </span>
