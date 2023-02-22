@@ -21,7 +21,7 @@ const Map = () => {
 
   useEffect(() => {
     if (mapLoaded) {
-      const uluru = { lat: -32.932524, lng: -68.835930 };
+      const uluru = { lat: 19.3029794, lng: -99.1504699525862 };
       const map = new window.google.maps.Map(document.getElementById("map"), {
         zoom: 15,
         center: uluru,
